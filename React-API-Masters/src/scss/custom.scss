@@ -1,0 +1,30 @@
+.grid-song-container {
+    .song-overview {
+        height: 115px;
+        overflow: hidden;
+    }
+}
+
+.song-poster {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 230px;
+}
+
+.zoom {
+    transition: transform .4s;
+}
+  
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.favorite-icon{
+    color: $gray-400;
+    cursor: pointer;
+    &.active {
+        color: rgb(6, 139, 184);
+    }
+}
